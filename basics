@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int a;
+    int b;
+    int c;
+    int totalspend;
+    int remaining;
+    cout<<"Enter money you have";
+    cin>>a;
+    cout<<"Enter money you spend on tansport";
+    cin>>b;
+    cout<<"Enter money you spend on food";
+    cin>>c;
+    totalspend = b +c;
+    cout<<"totalspend:" <<totalspend <<endl;
+    remaining = a - totalspend;
+    cout<<"remaining:" << remaining <<endl;
+    
+    
+Return 0;
+}
