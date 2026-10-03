@@ -1,0 +1,22 @@
+
+#include <iostream>
+using namespace std;
+int main(){
+    int totaldays;
+    int years;
+     int remainingdays;
+    int remainingweeks;
+    int days;
+    cout<<"enter the totaldays";
+    cin>>days;
+    years =days/365;
+    cout<<"years:"<<years<<endl;
+    remainingdays = totaldays % 365;
+    cout<<"remainingdays:"<<remainingdays <<endl;
+    remainingweeks = remainingdays /7;
+    cout<<"remainingweeks:"<<remainingweeks <<endl;
+    days = remainingdays % 7;
+    cout<<"days:"<<days <<endl;
+
+return 0;
+}
