@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+double originalprice, discountpercent, discount, finalprice;
+    cout<<"enter the original price";
+    cin>>originalprice;
+    cout<<"enter the discount percent";
+    cin>>discountpercent;
+    discount = originalprice * discountpercent / 100;
+    finalprice = originalprice - discount;
+    cout<<finalprice;
+return 0;
+}
