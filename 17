@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int a;
+    int b;
+    int c;
+    int d;
+    int largest;
+    cout<<"enter first number";
+    cin>>a;
+    cout<<"enter second number";
+    cin>>b;
+    cout<<"enter third number";
+    cin>>c;
+    cout<<"enter fourth number";
+    cin>>d;
+    if(a >= b && a >= c && a >= d)
+    {
+        largest = a;
+        cout<<"a is largest";
+    }
+    else if(b >= a && b >= c && b >= d)
+    {
+        largest = b;
+        cout<<"b is largest";
+    }
+    else if(c >= a && c >= b && c >= d)
+    {
+        largest = c;
+        cout<<"c is largest";
+    }
+    else
+    {
+        largest= d;
+        cout<<"d is largest";
+    }
+    cout<<"Largest" << largest;
+
+    
+    
+    return 0;
+}
+    
