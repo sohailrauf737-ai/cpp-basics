@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    int b;
+    int c;
+    cout<<"enter the first number";
+    cin>>a;
+    cout<<"enter the second number";
+    cin>>b;
+    cout<<"enter the third number";
+    cin>>c;
+    if(a < b && a < c)
+    {
+        cout<<"a is smaller";
+    }
+    else if(b < a && b < c)
+    {
+        cout<<"b is smaller";
+    }
+    else
+    {
+        cout<<"c is smaller";
+    }
+    return 0;
+}
+    
